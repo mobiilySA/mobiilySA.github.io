@@ -1,9 +1,0 @@
-var $ = jQuery.noConflict();
-//Triggers
-
-    $(document).ready(function ($) {
-        $('.w-cart').on('click', function (event) {
-            event.preventDefault();
-            window.location.href = $('.w-cart').find(".w-cart-link").attr("href");
-        });
-    });
